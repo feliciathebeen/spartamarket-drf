@@ -10,6 +10,11 @@ from .serializers import UserSerializer
 #     queryset = User.objects.all()
 #     serializer_class = UserSerializer
 class UserView(APIView):
+    def get(self, request, pk):
+        profile = User.objects.get(pk=pk)
+        serializer = UserSerializer(profile)
+        return Response(serializer.data)
+
     def post(self, request):
         serializer = UserSerializer(data=request.data)
         if serializer.is_valid(raise_exception=True):
@@ -20,6 +25,9 @@ class UserView(APIView):
         User.objects.filter(pk=pk).delete()
         data = {"pk": f"{pk} is delete."}
         return Response(data, status=status.HTTP_200_OK)
+
+
+
 
 
 
