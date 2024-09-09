@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework_simplejwt.token_blacklist',
     'rest_framework',
+    'django_extensions',
     'django_seed',
     'accounts',
     'products',
@@ -84,6 +85,11 @@ DATABASES = {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': BASE_DIR / 'db.sqlite3',
     }
+}
+
+GRAPH_MODELS = {
+  'all_applications': True,
+  'group_models': True,
 }
 
 
