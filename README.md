@@ -31,5 +31,7 @@ Projects to implement basic functions of the web market and improve personal ski
 - Delete Article <img width="300" alt="스크린샷 2024-09-09 오후 10 44 14" src="https://github.com/user-attachments/assets/835696ca-ca2a-45f9-8b8b-b82c197c016b">
 - Modification Article <img width="300" alt="스크린샷 2024-09-09 오후 10 47 15" src="https://github.com/user-attachments/assets/48423744-2ddd-4007-bee6-30f2fb1b7166">
 - List of Articles <img width="300" alt="스크린샷 2024-09-09 오후 10 48 16" src="https://github.com/user-attachments/assets/c7b16110-a10a-484a-87f3-e0a7873fb45d">
-- Detail of Article <img width="300" alt="스크린샷 2024-09-09 오후 10 49 07" src="https://github.com/user-attachments/assets/f6102eda-d659-464f-b073-bcc6694c96f2">
+- Detail of Article <img width="300" alt="스크린샷 2024-09-09 오후 10 50 46" src="https://github.com/user-attachments/assets/fc3616cc-07af-4362-b862-1f94c47e2256">
+
+
 
